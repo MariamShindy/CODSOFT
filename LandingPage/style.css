@@ -1,0 +1,145 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffe9f4;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav img{
+  width : 45px;
+  height: 45px;
+}
+.navbar{
+  border-radius:3px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 50px;
+  color: #333333;
+  margin-left: 5px;
+}
+
+.navbar-brand span {
+  color: #FF69B4;
+  font-size: 55px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+  font-size: 22px;
+  color: #555555;
+  transition: color 0.3s;
+  margin-left: 24px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FF69B4;
+}
+
+#main {
+  background-image: url('img/main1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#main h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#main p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#main span{
+  color : #FF69B4;
+}
+#about {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#about p{
+  font-size: 20px;
+}
+#about img{
+  width: 80px;
+  height: 80px;
+  border: solid pink 3px;
+  border-radius: 50%;
+}
+
+#products {
+  background-color: #ffe9f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#products h2 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+#products h3{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#products p{
+  font-size: 20px;
+}
+
+#products img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#contact label{
+  font-size: 20px;
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-dark:hover {
+  background-color: #939393;
+  border-color: #939393;
+}
